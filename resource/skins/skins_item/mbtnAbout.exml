@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mbtnAbout" width="111" height="80" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="mbtn_BgFc_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="mbtnAbout_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="mbtn_Bg_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="mbtnAbout_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

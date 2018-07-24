@@ -1,0 +1,30 @@
+{
+    "164ad8486d3": {
+        "path": "../resource/skins/MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "164ad928cf7": {
+        "path": "MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "global": {
+        "globalRulerEnable": true,
+        "globalAdsorbEnable": true,
+        "globalAutoLayerMarkEnable": true
+    },
+    "164b196f759": {
+        "guideLinesEnabled": true
+    },
+    "164b5cad3f2": {
+        "path": "Game/HeroScene.ts",
+        "class": "HeroScene",
+        "parentPath": ""
+    },
+    "164cb9e1dc7": {
+        "path": "Game/AboutScene.ts",
+        "class": "AboutScene",
+        "parentPath": ""
+    }
+}

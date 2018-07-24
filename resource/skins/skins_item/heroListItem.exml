@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="heroListItem" width="443" height="104" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="listItemBkgd_png" horizontalCenter="0" verticalCenter="0" />
+	<e:Image width="60" height="67" x="34" y="18" anchorOffsetX="0" anchorOffsetY="0" source="{data.image}" />
+	<e:Label text="{data.name}" x="152" y="22.5" anchorOffsetX="0" width="122" anchorOffsetY="0" height="21.5"
+	         verticalAlign="middle" textAlign="center" size="20" textColor="0xffdb51" />
+	<e:Label text="{data.value}" x="121" y="62.5" anchorOffsetX="0" width="234.5" anchorOffsetY="0" height="21.5"
+	         verticalAlign="middle" textAlign="left" size="20" textColor="0x00c4ed" />
+	<e:CheckBox id="ce_select" label="" x="390" y="14.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="checkNo_png" source.down="checked_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+</e:Skin>
