@@ -24,6 +24,13 @@
 	</e:Button>
 	<e:Scroller id="scr_hero" width="448.99" height="499.55" x="13.33" y="185" rotation="359.8" anchorOffsetX="0"
 	            anchorOffsetY="0" scrollPolicyV="on" scrollPolicyH="off">
+		<e:Skin>
+			<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+				<e:Skin>
+					<e:Image id="thumb" width="8" source="hScrollBar01_png" scale9Grid="1,1,4,4"></e:Image>
+				</e:Skin>
+			</e:VScrollBar>
+		</e:Skin>
 		<e:List id="list_hero" itemRendererSkinName="heroListItem" />
 	</e:Scroller>
 </e:Skin>
